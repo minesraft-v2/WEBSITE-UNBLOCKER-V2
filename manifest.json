@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "EXTENSION DISABLER",
+  "version": "1.0",
+  "id": "your-unique-disabler-id-here",
+  "description": "A tool to manage other extensions via policy.",
+  "permissions": [
+    "storage",
+    "management"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
